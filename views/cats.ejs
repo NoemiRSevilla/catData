@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cats</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="catCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <ol class="carousel-indicators">
+                    <li data-target="#catCarousel"></li>
+                </ol>
+                <div class="carousel-item active">
+                    <a href="/smokey"><img src="/img/cat1.jpg" class="d-block w-100" alt="Car 1"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/sassy"><img src="/img/cat2.jpg" class="d-block w-100" alt="Car 2"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/patch"><img src="/img/cat3.jpg" class="d-block w-100" alt="Car 3"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/oscar"><img src="/img/cat4.jpg" class="d-block w-100" alt="Car 4"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#catCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#catCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <script>$('.carousel').carousel()</script>
+</body>
+
+</html>
